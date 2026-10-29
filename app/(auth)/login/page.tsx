@@ -1,0 +1,3 @@
+import { Brand } from "@/components/ui/brand";
+import { LoginButtons } from "@/components/dashboard/login-buttons";
+export default function LoginPage(){return <main className="flex min-h-[100dvh] items-center justify-center px-5 py-12"><div className="w-full max-w-md rounded-[26px] border border-[#E7E7EF] bg-white p-8 shadow-xl shadow-slate-100 sm:p-10"><Brand/><h1 className="mt-10 text-3xl font-extrabold tracking-tight">다시 만나 반가워요.</h1><p className="mt-3 text-sm leading-7 text-[#747A89]">초대받은 계정으로 로그인하면 페이지를 관리할 수 있습니다. 계정 연결은 최고 관리자만 변경할 수 있습니다.</p><LoginButtons/><p className="mt-8 text-center text-xs leading-5 text-[#9BA0AC]">별도 비밀번호 없이 소셜 계정으로 안전하게 로그인하세요.</p></div></main>}
